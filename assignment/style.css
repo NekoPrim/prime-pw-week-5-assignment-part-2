@@ -1,21 +1,60 @@
 body {
-    background-color: goldenrod;
-    background-image: url("record.png");
-    background-repeat: repeat;
+    background-image: url("record.png"), url("goldCodeGlitter.gif");
+    background-repeat: repeat, no-repeat;
+    background-size: contain, cover;
+    height: 100%;
     margin: 0;
 }
 
 header {
     background-color: black;
+    border: 3px ridge goldenrod;
     color: gold;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1em;
     text-align: center;
 }
 
 .main {
+    align-items: center;
     background-color: lightgray;
+    border-bottom: 3px solid black;
     color:dimgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 0%;
     padding: 1em;
     text-align: center;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    animation-direction: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    position: relative;
+    transform: rotate(359deg);
+    width: 5%;
+}
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+.img2, .img5 {
+    animation-delay: 0.5s;
+}
+
+.question {
+    align-items: center;
+    background-color: black;
+    border: 3px ridge goldenrod;
+    color: goldenrod;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    text-align: center;
+
 }
