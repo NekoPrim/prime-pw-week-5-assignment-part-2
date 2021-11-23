@@ -6,11 +6,15 @@ body {
     margin: 0;
 }
 
+@import url(https://db.onlinewebfonts.com/c/c9650c5be999acf94c02f299a486b829?family=TWENTY-SEVEN);
+
 header {
     background-color: black;
-    border: 3px ridge goldenrod;
+    border-bottom: 3px ridge goldenrod;
+    border-top: 3px ridge goldenrod;
     color: gold;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "TWENTY-SEVEN";
+    opacity: 0.8;
     padding: 1em;
     text-align: center;
 }
@@ -22,6 +26,7 @@ header {
     color:dimgrey;
     display: flex;
     flex-direction: row;
+    font-family: "TWENTY-SEVEN";
     justify-content: space-around;
     margin-top: 0%;
     padding: 1em;
@@ -51,10 +56,12 @@ header {
     align-items: center;
     background-color: black;
     border: 3px ridge goldenrod;
-    color: goldenrod;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    color: gold;
+    font-family: "TWENTY-SEVEN";
+    margin-left: 20rem;
+    margin-right: 20rem;
     margin-top: 5rem;
     text-align: center;
-
 }
+
+@font-face {font-family: "TWENTY-SEVEN"; src: url("https://db.onlinewebfonts.com/t/c9650c5be999acf94c02f299a486b829.eot"); src: url("https://db.onlinewebfonts.com/t/c9650c5be999acf94c02f299a486b829.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c9650c5be999acf94c02f299a486b829.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c9650c5be999acf94c02f299a486b829.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c9650c5be999acf94c02f299a486b829.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c9650c5be999acf94c02f299a486b829.svg#TWENTY-SEVEN") format("svg"); } 
