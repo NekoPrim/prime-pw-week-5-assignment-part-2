@@ -2,11 +2,12 @@ body {
     background-color: goldenrod;
     background-image: url("record.png");
     background-repeat: repeat;
+    margin: 0;
 }
 
 header {
     background-color: black;
-    color: goldenrod;
+    color: gold;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
@@ -14,6 +15,7 @@ header {
 .main {
     background-color: lightgray;
     color:dimgrey;
-    text-align: center;
     margin-top: 0%;
+    padding: 1em;
+    text-align: center;
 }
